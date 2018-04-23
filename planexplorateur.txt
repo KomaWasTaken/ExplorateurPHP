@@ -1,4 +1,4 @@
-Fonctionnalit�s :
+﻿Fonctionnalit�s :
 
 Entrer/sortir d'un dossier
 
@@ -24,3 +24,5 @@ un icone d'image pour une image etc etc)
 Navigation rapide � gauche (avec arborescence)
 
 TEST // Ludo
+
+TEST // Jim
