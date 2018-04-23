@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 Fonctionnalit�s :
 =======
 ﻿Fonctionnalit�s :
@@ -31,6 +31,8 @@ Navigation rapide � gauche (avec arborescence)
 ExplorateurAlpha
 =======
 TEST // Ludo
+
+TEST // Monica
 
 TEST // Jim
 >>>>>>> 7733c0dd68c78c7e87cd8b02df0db6f8dcfb194b
