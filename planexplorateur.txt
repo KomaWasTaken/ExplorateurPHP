@@ -1,4 +1,8 @@
+﻿<<<<<<< HEAD
+Fonctionnalit�s :
+=======
 ﻿Fonctionnalit�s :
+>>>>>>> 7733c0dd68c78c7e87cd8b02df0db6f8dcfb194b
 
 Entrer/sortir d'un dossier
 
@@ -23,6 +27,12 @@ Icones pour types de fichier (un dossier pour un dossier,
 un icone d'image pour une image etc etc)
 Navigation rapide � gauche (avec arborescence)
 
+<<<<<<< HEAD
+ExplorateurAlpha
+=======
 TEST // Ludo
 
+TEST // Monica
+
 TEST // Jim
+>>>>>>> 7733c0dd68c78c7e87cd8b02df0db6f8dcfb194b
