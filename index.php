@@ -9,25 +9,16 @@
 </head>
 <body>
 <?php
-$dir = "../";
-//  si le dossier pointe existe
-if (is_dir($dir)) {
+     $dir = '../';
+    $scans = scandir($dir);
 
-   // si il contient quelque chose
-   if ($dh = opendir($dir)) {
-
-       // boucler tant que quelque chose est trouve
-       while (($file = readdir($dh)) !== false) {
-
-           // affiche le nom et le type si ce n'est pas un element du systeme
-           if( $file != '.' && $file != '..') {
-           echo "fichier : $file : type : " . filetype($dir . $file) . "<br />\n";
-           }
-       }
-       // on ferme la connection
-       closedir($dh);
-   }
-}
+    foreach($scans as $scan)
+    {
+        if (!is_dir($scan))
+        {
+            echo $scan.'<br />';
+        }
+    }
 ?>
 
 </body>
