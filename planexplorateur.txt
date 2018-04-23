@@ -1,4 +1,4 @@
-Fonctionnalités :
+Fonctionnalitï¿½s :
 
 Entrer/sortir d'un dossier
 
@@ -9,17 +9,18 @@ Afficher la taille d'un fichier/dossier
 Afficher une arborescence de fichiers/dossiers
 Menu de navigation rapide
 
-//(peut-être : ajout d'une preview (on double click -> ajout d'une pitite fenêtre affichant l'objet en "mosaïque")//
+//(peut-ï¿½tre : ajout d'une preview (on double click -> ajout d'une pitite fenï¿½tre affichant l'objet en "mosaï¿½que")//
 
 
 //
-Si côté serveur : seul l'admin peut utiliser la plupart des fonctionnalités précédentes, sinon l'utilisateur peut seulement visiter
+Si cï¿½tï¿½ serveur : seul l'admin peut utiliser la plupart des fonctionnalitï¿½s prï¿½cï¿½dentes, sinon l'utilisateur peut seulement visiter
 //
 
 
-Design général :
+Design gï¿½nï¿½ral :
 
 Icones pour types de fichier (un dossier pour un dossier, 
 un icone d'image pour une image etc etc)
-Navigation rapide à gauche (avec arborescence)
+Navigation rapide ï¿½ gauche (avec arborescence)
 
+TEST // Ludo
