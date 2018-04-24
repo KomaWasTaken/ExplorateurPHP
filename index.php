@@ -1,25 +1,36 @@
+
+<?php include("explorer.php");?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-<?php
-     $dir = '../';
-    $scans = scandir($dir);
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>C'est très l'exploration</title>
+	</head>
+	<body>
+		<h1>C'est très l'exploration</h1>
 
-    foreach($scans as $scan)
-    {
-        if (!is_dir($scan))
-        {
-            echo $scan.'<br />';
-        }
-    }
-?>
-
+		<div>
+			<?php foreach($dirs as $dir){?>
+				<?php if (is_dir($base_url.$dir)){?>
+					<?php if ($dir == "..") {?>
+						<div>
+							<a href="index.php"><?php echo $dir; ?></a><br>
+						</div>
+					<?php } else {?>
+						<div>
+							<?php if (isset($_GET['dossier'])) {?>
+								<a href="index.php?dossier=<?php echo $_GET['dossier'] ?><?php echo $dir; ?>/"><?php echo $dir; ?></a><br>
+							<?php } else {?>
+								<a href="index.php?dossier=<?php echo $dir ?>/"><?php echo $dir; ?></a><br>
+							<?php }?>
+						</div>
+					<?php }?>
+				<?php } else {?>
+					<div>
+						<p><?php echo $dir; ?></p>
+					</div>
+				<?php }?>
+                <?php }?>
+		</div>
 </body>
 </html>
