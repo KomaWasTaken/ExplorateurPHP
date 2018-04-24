@@ -9,15 +9,26 @@
 </head>
 <body>
 <?php
-     $dir = '../';
-    $scans = scandir($dir);
-
+    $dir = '../';
+    $scans = array_diff(scandir($dir), array('.', '..'));
+    
     foreach($scans as $scan)
     {
         if (!is_dir($scan))
         {
-            echo $scan.'<br />';
+            echo '<a href="/' . $scan . '">' . $scan . '</a> <br />';
+        } else if($scan == ""){
+            add_vhost.php
+            favicon.ico
+            index.php
+            test_sockets.php
+            testmysql.php
+            wamplangues
+            wampthemes
         }
+
+        
+
     }
 ?>
 
