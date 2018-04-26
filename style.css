@@ -1,0 +1,38 @@
+/* DISPLAY PROPERTIES */
+
+.d-flex{display:flex;}
+
+/* ------------------------------------------------------------------------------------------/*
+
+
+/* FLEX PROPERTIES */
+
+.jc-center{justify-content:center;}
+.jc-space-around{justify-content:space-around;}
+.flex-column{flex-direction:column;}
+.flex-row{flex-direction:row;}
+.align-items-center{align-items:center;}
+
+/* ------------------------------------------------------------------------------------------/*
+
+
+/* COLORS */
+
+/* ------------------------------------------------------------------------------------------/*
+
+
+/* BACKGROUNDS*/
+.dossier{background:url("images/dossier.jpg")}
+.fichier{background:url("images/fichier.jpg")}
+.image{background:url("images/image.jpg")}
+/* ------------------------------------------------------------------------------------------/*
+
+
+/* FONTS && FONT-SIZES*/
+.fs-24{font-size:24px;}
+.fs-18{font-size:18px;}
+
+
+/* TEXT */
+.text-align-center{text-align:center;}
+/* ------------------------------------------------------------------------------------------/*
