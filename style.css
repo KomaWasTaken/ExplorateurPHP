@@ -68,7 +68,7 @@ table {
 
 /* COLORS */
 .color-white{color: #fff;}
-.color-gray{color:#B0B0B0;-moz-transition: color 0.4s; transition: color 0.4s;}
+.color-gray{color:#B0B0B0;}
 /* ------------------------------------------------------------------------------------------/*
 
 
@@ -86,7 +86,8 @@ table {
 .fs-60{font-size: 60px;transition: all 0.4s}
 h1{font-size: 60px;}
 
-.montserrat{font-family: 'Montserrat';}
+.montserrat{font-family: 'Montserrat', sans-serif;}
+.raleway{font-family: 'Raleway', sans-serif;}
 .roboto{font-family: 'Roboto', sans-serif;}
 
 /* TEXT */
@@ -124,9 +125,8 @@ a{
 }
 a:hover{
 	transform: scale(1);
-	border: 1px solid #5472ae;
 	background-color: rgba(0, 0, 0, 0.2);
 }
 a:hover .fs-60{font-size: 100px;}
-
-i:hover{color:#FFF;}
+.transition{color:#B0B0B0; -moz-transition: all 0.4s; transition: all 0.4s;}
+.transition:hover{color:#FFF;}
