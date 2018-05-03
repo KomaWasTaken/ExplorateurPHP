@@ -62,6 +62,7 @@ table {
 .flex-row{flex-direction:row;}
 .align-items-center{align-items:center;}
 .flex-wrap{flex-wrap: wrap;}
+.no-wrap{flex-wrap: nowrap;}
 
 /* ------------------------------------------------------------------------------------------/*
 
